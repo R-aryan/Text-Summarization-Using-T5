@@ -27,7 +27,7 @@ class Server:
 
         @self.app.route("/", methods=["GET"])
         def render(path=None):
-            return "Text Extraction AKA Question Answering using BERT root page"
+            return "Text Summarization Using T5(Text to Text Transfer Transformer) root page"
 
         # TODO: Allow restricted origins
         cors = CORS(self.app, resources={r"/*": {"origins": "*"}})
