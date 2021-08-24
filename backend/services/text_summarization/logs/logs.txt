@@ -7,3 +7,6 @@
 [22-Aug-2021 : 20:38:53] INFO [werkzeug._log:113] 127.0.0.1 - - [22/Aug/2021 20:38:53] "[37mGET / HTTP/1.1[0m" 200 -
 [22-Aug-2021 : 20:40:13] INFO [root.info:27] INFO : GET request received:http://localhost:8080/text_summarization/api/v1/predict
 [22-Aug-2021 : 20:40:13] INFO [werkzeug._log:113] 127.0.0.1 - - [22/Aug/2021 20:40:13] "[37mGET /text_summarization/api/v1/predict HTTP/1.1[0m" 200 -
+[24-Aug-2021 : 19:31:59] INFO [werkzeug._log:113]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[24-Aug-2021 : 19:32:07] INFO [root.info:27] INFO : GET request received:http://localhost:8080/
+[24-Aug-2021 : 19:32:07] INFO [werkzeug._log:113] 127.0.0.1 - - [24/Aug/2021 19:32:07] "[37mGET / HTTP/1.1[0m" 200 -
