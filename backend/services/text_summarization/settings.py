@@ -1,6 +1,6 @@
 import os
+
 import torch
-from tokenizers.implementations import BertWordPieceTokenizer
 
 
 class Settings:
@@ -9,3 +9,8 @@ class Settings:
     APPLICATION_PATH = root_path + "backend\\services\\text_summarization\\application\\"
     # setting up logs path
     LOGS_DIRECTORY = root_path + "backend\\services\\text_summarization\\logs\\logs.txt"
+
+    MODEL_TYPE = "t5"
+    MODEL_NAME = "t5-base"
+
+    DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
