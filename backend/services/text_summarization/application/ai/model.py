@@ -7,7 +7,7 @@ class T5Model:
         self.model.from_pretrained(model_type=model_type,
                                    model_name=model_name)
 
-    def load_model(self,model_type,model_path,use_gpu:bool):
+    def load_model(self, model_type, model_path, use_gpu: bool):
         try:
             self.model.load_model(
                 model_type=model_type,

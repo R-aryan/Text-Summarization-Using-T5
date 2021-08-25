@@ -2,6 +2,7 @@ import re
 import string
 
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 from services.text_summarization.settings import Settings
 
@@ -27,3 +28,5 @@ class Preprocess:
         df = df[self.settings.df_column_list]
         # T5 model expects a task related prefix: since it is a summarization task, we will add a prefix "summarize: "
         df[self.settings.SOURCE_TEXT_KEY] = self.settings.SUMMARIZE_KEY + df[self.settings.SOURCE_TEXT_KEY]
+
+        return df
