@@ -14,3 +14,15 @@ class Settings:
     MODEL_NAME = "t5-base"
 
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    # training data directory
+    TRAIN_DATA = APPLICATION_PATH + "ai\\data\\news_summary.csv"
+
+    Columns = ['headlines', 'text']
+
+    USE_GPU = True if DEVICE == "cuda" else False
+
+    EPOCHS = 5
+
+
+
