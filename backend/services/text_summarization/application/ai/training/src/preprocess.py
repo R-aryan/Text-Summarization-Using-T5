@@ -1,5 +1,8 @@
 import re
 import string
+
+import pandas as pd
+
 from services.text_summarization.settings import Settings
 
 
@@ -17,3 +20,10 @@ class Preprocess:
         text = re.sub('\w*\d\w*', '', text)
         return text
 
+    def preprocess_data(self, data_path):
+        df = pd.read_csv(data_path, encoding=self.settings.encoding, usecols=self.settings.Columns)
+        # simpleT5 expects dataframe to have 2 columns: "source_text" and "target_text"
+        df = df.rename(columns=self.settings.columns_dict)
+        df = df[self.settings.df_column_list]
+        # T5 model expects a task related prefix: since it is a summarization task, we will add a prefix "summarize: "
+        df[self.settings.SOURCE_TEXT_KEY] = self.settings.SUMMARIZE_KEY + df[self.settings.SOURCE_TEXT_KEY]

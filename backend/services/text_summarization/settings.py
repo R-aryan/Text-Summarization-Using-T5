@@ -24,5 +24,12 @@ class Settings:
 
     EPOCHS = 5
 
+    encoding = 'latin-1'
+    columns_dict = {"headlines": "target_text", "text": "source_text"}
+    df_column_list = ['source_text', 'target_text']
+    SUMMARIZE_KEY = "summarize: "
+    SOURCE_TEXT_KEY = 'source_text'
+
+
 
 
