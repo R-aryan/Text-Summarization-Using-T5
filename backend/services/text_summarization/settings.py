@@ -40,5 +40,5 @@ class Settings:
     train_df_len = 5000
     test_df_len = 100
 
-    WEIGHTS_PATH = "./outputs/SimpleT5-epoch-4-train-loss-0.6182"
+    WEIGHTS_PATH = APPLICATION_PATH + "ai\\weights\\SimpleT5-epoch-4-train-loss-0.6182"
     kaggle_dir = 'https://www.kaggle.com/raryan/t5-abstractive-text-summarization'

@@ -23,4 +23,5 @@ The development comes at a time when the micro-blogging platform has been engage
 government over the new social media rules. The government has slammed Twitter for deliberate defiance and failure to 
 comply with the country’s new IT rules. """
 
-t5_model.model.predict(text_to_summarize)
+result = t5_model.model.predict(text_to_summarize)
+print(result)
