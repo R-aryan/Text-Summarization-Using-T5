@@ -29,7 +29,9 @@ class Settings:
     df_column_list = ['source_text', 'target_text']
     SUMMARIZE_KEY = "summarize: "
     SOURCE_TEXT_KEY = 'source_text'
-
-
-
-
+    TEST_SIZE = 0.2
+    BATCH_SIZE = 8
+    source_max_token_len = 128
+    target_max_token_len = 50
+    train_df_len = 5000
+    test_df_len=100
