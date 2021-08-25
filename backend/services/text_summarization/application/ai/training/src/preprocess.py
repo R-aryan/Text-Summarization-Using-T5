@@ -2,8 +2,6 @@ import re
 import string
 
 import pandas as pd
-from sklearn.model_selection import train_test_split
-
 from services.text_summarization.settings import Settings
 
 

@@ -20,7 +20,11 @@ class Settings:
 
     Columns = ['headlines', 'text']
 
-    USE_GPU = True if DEVICE == "cuda" else False
+    USE_GPU = None
+    if str(DEVICE) == "cuda":
+        USE_GPU = True
+    else:
+        USE_GPU = False
 
     EPOCHS = 5
 
@@ -34,4 +38,6 @@ class Settings:
     source_max_token_len = 128
     target_max_token_len = 50
     train_df_len = 5000
-    test_df_len=100
+    test_df_len = 100
+
+    WEIGHTS_PATH = "./outputs/SimpleT5-epoch-4-train-loss-0.6182"
