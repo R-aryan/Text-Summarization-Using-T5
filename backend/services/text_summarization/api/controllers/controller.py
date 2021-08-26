@@ -23,7 +23,7 @@ class Controller(Resource):
     def stream_response_ok(stream):
         return Response(stream, mimetype='multipart/x-mixed-replace; boundary=frame')
 
-    def __map_response(self, msg: str):
+    def map_response(self, msg: str):
         return {
             'response': msg
         }

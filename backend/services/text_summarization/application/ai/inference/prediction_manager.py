@@ -52,8 +52,8 @@ class PredictionManager:
         try:
             self.logger.info(message="Received data for inference \n" + str(data) + "--!! \n")
             result = self.__predict(data)
-            self.logger.info("Response " + str(result) + " returned for input \n " + str(data) + "\n successfully--!! "
-                                                                                                 "\n")
+            self.logger.info("Response " + str(result) + " returned for input successfully--!!")
+
             return self.__format_response(result, data)
 
         except BaseException as ex:
