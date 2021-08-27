@@ -40,8 +40,6 @@ class Settings:
     train_df_len = 5000
     test_df_len = 100
 
-    WEIGHTS_PATH = APPLICATION_PATH + "ai\\weights\\SimpleT5-epoch-4-train-loss-0.6182"
-    kaggle_dir = ''
-
+    WEIGHTS_PATH = APPLICATION_PATH + "ai\\weights\\SimpleT5-weights"
     # constants
     DATA_KEY = 'data'
