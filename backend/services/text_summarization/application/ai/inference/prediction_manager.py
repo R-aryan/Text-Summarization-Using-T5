@@ -50,9 +50,9 @@ class PredictionManager:
 
     def run_inference(self, data):
         try:
-            self.logger.info(message="Received data for inference \n" + str(data) + "--!! \n")
+            self.logger.info(message="Received data for inference-----!! \n" + str(data) + "--------")
             result = self.__predict(data)
-            self.logger.info("Response " + str(result) + " returned for input successfully--!!")
+            self.logger.info("Response ----> " + str(result) + " ------- returned for input successfully--!!")
 
             return self.__format_response(result, data)
 

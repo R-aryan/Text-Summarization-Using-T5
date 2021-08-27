@@ -1,26 +1,10 @@
-[22-Aug-2021 : 20:38:23] INFO [werkzeug._log:113]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
-[22-Aug-2021 : 20:38:40] INFO [root.info:27] INFO : GET request received:http://localhost:8080/
-[22-Aug-2021 : 20:38:40] INFO [werkzeug._log:113] 127.0.0.1 - - [22/Aug/2021 20:38:40] "[37mGET / HTTP/1.1[0m" 200 -
-[22-Aug-2021 : 20:38:40] INFO [root.info:27] INFO : GET request received:http://localhost:8080/favicon.ico
-[22-Aug-2021 : 20:38:40] INFO [werkzeug._log:113] 127.0.0.1 - - [22/Aug/2021 20:38:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-[22-Aug-2021 : 20:38:53] INFO [root.info:27] INFO : GET request received:http://localhost:8080/
-[22-Aug-2021 : 20:38:53] INFO [werkzeug._log:113] 127.0.0.1 - - [22/Aug/2021 20:38:53] "[37mGET / HTTP/1.1[0m" 200 -
-[22-Aug-2021 : 20:40:13] INFO [root.info:27] INFO : GET request received:http://localhost:8080/text_summarization/api/v1/predict
-[22-Aug-2021 : 20:40:13] INFO [werkzeug._log:113] 127.0.0.1 - - [22/Aug/2021 20:40:13] "[37mGET /text_summarization/api/v1/predict HTTP/1.1[0m" 200 -
-[24-Aug-2021 : 19:31:59] INFO [werkzeug._log:113]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
-[24-Aug-2021 : 19:32:07] INFO [root.info:27] INFO : GET request received:http://localhost:8080/
-[24-Aug-2021 : 19:32:07] INFO [werkzeug._log:113] 127.0.0.1 - - [24/Aug/2021 19:32:07] "[37mGET / HTTP/1.1[0m" 200 -
-[26-Aug-2021 : 21:12:39] INFO [root.info:27] INFO : Loading T5(text-to-text-transfer-transformer) Model for text extraction.
-[26-Aug-2021 : 21:13:15] INFO [root.info:27] INFO : Model Weights loaded Successfully--!!
-[26-Aug-2021 : 21:13:15] INFO [werkzeug._log:113]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
-[26-Aug-2021 : 21:17:56] INFO [root.info:27] INFO : POST request received:http://localhost:8080/text_summarization/api/v1/predict
-[26-Aug-2021 : 21:18:15] INFO [root.info:27] INFO : Received data for inference 
-summarize: Twitter’s interim resident grievance officer for India has stepped down,leaving the micro-blogging site without a grievance official as mandated by the new IT rules to address complaints from Indian subscribers, according to a source.The source said that Dharmendra Chatur, who was recently appointed as interim resident grievance officer for India by Twitter, has quit from the post.The social media company’s website no longer displays his name, as required under Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021.Twitter declined to comment on the development.The development comes at a time when the micro-blogging platform has been engaged in a tussle with the Indian government over the new social media rules. The government has slammed Twitter for deliberate defiance and failure to comply with the country’s new IT rules--!! 
-
-[26-Aug-2021 : 21:18:27] INFO [root.info:27] INFO : Performing prediction on the given data.
-[26-Aug-2021 : 21:18:38] INFO [root.info:27] INFO : Response Twitter's interim resident grievance officer steps down returned for input 
- summarize: Twitter’s interim resident grievance officer for India has stepped down,leaving the micro-blogging site without a grievance official as mandated by the new IT rules to address complaints from Indian subscribers, according to a source.The source said that Dharmendra Chatur, who was recently appointed as interim resident grievance officer for India by Twitter, has quit from the post.The social media company’s website no longer displays his name, as required under Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021.Twitter declined to comment on the development.The development comes at a time when the micro-blogging platform has been engaged in a tussle with the Indian government over the new social media rules. The government has slammed Twitter for deliberate defiance and failure to comply with the country’s new IT rules
- successfully--!! 
-
-[26-Aug-2021 : 21:18:45] INFO [root.info:27] INFO : Request processed successfully--!!
-[26-Aug-2021 : 21:18:50] INFO [werkzeug._log:113] 127.0.0.1 - - [26/Aug/2021 21:18:50] "[37mPOST /text_summarization/api/v1/predict HTTP/1.1[0m" 200 -
+[27-Aug-2021 : 20:47:18] INFO [root.info:27] INFO : Loading T5(text-to-text-transfer-transformer) Model for text extraction.
+[27-Aug-2021 : 20:47:39] INFO [root.info:27] INFO : Model Weights loaded Successfully--!!
+[27-Aug-2021 : 20:47:39] INFO [werkzeug._log:113]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[27-Aug-2021 : 20:47:46] INFO [root.info:27] INFO : POST request received:http://localhost:8080/text_summarization/api/v1/predict
+[27-Aug-2021 : 20:47:46] INFO [root.info:27] INFO : Received data for inference-----!! 
+summarize: Twitter’s interim resident grievance officer for India has stepped down,leaving the micro-blogging site without a grievance official as mandated by the new IT rules to address complaints from Indian subscribers, according to a source.The source said that Dharmendra Chatur, who was recently appointed as interim resident grievance officer for India by Twitter, has quit from the post.The social media company’s website no longer displays his name, as required under Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021.Twitter declined to comment on the development.The development comes at a time when the micro-blogging platform has been engaged in a tussle with the Indian government over the new social media rules. The government has slammed Twitter for deliberate defiance and failure to comply with the country’s new IT rules--------
+[27-Aug-2021 : 20:47:46] INFO [root.info:27] INFO : Performing prediction on the given data.
+[27-Aug-2021 : 20:47:49] INFO [root.info:27] INFO : Response ----> Twitter's interim resident grievance officer steps down ------- returned for input successfully--!!
+[27-Aug-2021 : 20:47:49] INFO [root.info:27] INFO : Request processed successfully--!!
+[27-Aug-2021 : 20:47:49] INFO [werkzeug._log:113] 127.0.0.1 - - [27/Aug/2021 20:47:49] "[37mPOST /text_summarization/api/v1/predict HTTP/1.1[0m" 200 -
