@@ -4,7 +4,7 @@
 - End to End NLP  abstractive text summarization Problem.
 - The Kaggle dataset can be found Here [Click Here](https://www.kaggle.com/sunnysai12345/news-summary)
 
-####  Steps to run the project [Click Here](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/develop/backend/services/text_summarization/README.md)
+####  Steps to run the project [Click Here](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/main/backend/services/text_summarization/README.md)
 
 ### Dataset Description
 
