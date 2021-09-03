@@ -31,9 +31,9 @@ Following are the screenshots for the sample **request** and sample **response.*
 
 - Request sample
 
-![Sample request](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/develop/msc/sample_request.png)
+![Sample request](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/main/msc/sample_request.png)
   <br>
   <br>
 - Response Sample
 
-![Sample response](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/develop/msc/sample_response.png)
+![Sample response](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/main/msc/sample_response.png)
