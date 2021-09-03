@@ -27,7 +27,7 @@ Performing abstractive text summarization task using T5, and serving it via REST
 - You can send the **POST/GET** request at this URL - **localhost:8080/text_summarization/api/v1/predict** (you can find the declaration of endpoint under **backend/services/text_summarization/api/__init__.py** )
 - You can also see the logs under **(backend/services/text_summarization/logs)** directory.
 
-Following are the screenshots for the sample **request** and sample **response.**
+### Following are the screenshots for the sample **request** and sample **response.**
 
 - Request sample
 
