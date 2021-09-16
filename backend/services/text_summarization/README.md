@@ -16,7 +16,7 @@ Performing abstractive text summarization task using T5, and serving it via REST
 
 
 ### For Training/Fine-Tuning
-- After Setting up the environment go to **backend/services/text_summarization/application/ai/training/** and run **main.py** and the training will start.
+- After Setting up the environment go to [**backend/services/text_summarization/application/ai/training/**](https://github.com/R-aryan/Text-Summarization-Using-T5/tree/main/backend/services/text_summarization/application/ai/training) and run **main.py** and the training will start.
 - After training is complete the weights of the model will be saved in weights directory, and this weights can be used for inference.
 
 
@@ -24,7 +24,7 @@ Performing abstractive text summarization task using T5, and serving it via REST
 - Download the pre-trained weights(file is Zipped) from [here](https://drive.google.com/drive/folders/1l0oejWlLIEYDOsjahVNMN31JgNeFIzfl?usp=sharing) and place it inside the weights' folder(**backend/services/text_summarization/application/ai/weights/**) after unzipping it.
 - After setting up the environment: go to [**backend/services/text_summarization/api**](https://github.com/R-aryan/Text-Summarization-Using-T5/tree/main/backend/services/text_summarization/api) and run **app.py**.
 - After running the above step the server will start(Endpoint- **localhost:8080**).  
-- You can send the **POST/GET** request at this URL - **localhost:8080/text_summarization/api/v1/predict** (you can find the declaration of endpoint under **backend/services/text_summarization/api/__init__.py** )
+- You can send the **POST/GET** request at this URL - **localhost:8080/text_summarization/api/v1/predict** (you can find the declaration of endpoint under [**backend/services/text_summarization/api/__init__.py**](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/main/backend/services/text_summarization/api/__init__.py) )
 - You can also see the logs under [**(backend/services/text_summarization/logs)**](https://github.com/R-aryan/Text-Summarization-Using-T5/tree/main/backend/services/text_summarization/logs) directory.
 
 ### Following are the screenshots for the sample **request** and sample **response.**
