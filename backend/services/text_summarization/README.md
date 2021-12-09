@@ -12,7 +12,7 @@ Performing abstractive text summarization task using T5, and serving it via REST
 - What is [**Virtual Environment in python ?**](https://www.geeksforgeeks.org/python-virtual-environment/)
 - [Create virtual environment in python](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/)
 - [Create virtual environment Anaconda](https://www.geeksforgeeks.org/set-up-virtual-environment-for-python-using-anaconda/)
-- create a virtual environment and install [requirements.txt](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/develop/requirements.txt)
+- create a virtual environment and install [requirements.txt](https://github.com/R-aryan/Text-Summarization-Using-T5/blob/main/requirements.txt)
 
 
 ### For Training/Fine-Tuning
