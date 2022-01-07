@@ -20,11 +20,8 @@ injector==0.18.4
 joblib==1.0.1
 jsonschema==3.2.0
 matplotlib==3.3.4
-mistune==0.8.4
-multidict==5.1.0
-nest-asyncio==1.5.1
 nltk
-numpy==1.19.5
+numpy
 oauthlib==3.1.1
 onnx==1.10.1
 onnxruntime==1.7.0
@@ -53,8 +50,5 @@ torchmetrics==0.5.0
 torchvision==0.8.0
 tornado==6.1
 tqdm==4.61.1
-traitlets==4.3.3
-transaction==3.0.1
 transformers==4.6.1
-translationstring==1.4
 psutil
